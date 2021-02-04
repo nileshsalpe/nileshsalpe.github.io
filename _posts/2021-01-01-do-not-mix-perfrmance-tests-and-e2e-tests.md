@@ -62,14 +62,18 @@ Checking correctness
 - it is difficult to debug in case of problems 
 - It has limited support examples like JSON parsing which needs additional special plugins and that needs additional setup.
 - Difficult to assert dynamic response as need groovy script to check
+
 ####  Readability and Maintainability
 - Difficult to maintain as it needs UI client to see exact tests
 - It needs an understanding of Jmeter components for both developer and reviewer 
+
 #### Extensibility 
 - It is challenging to externalize the configurations in the file outside Jmeter.
 - Multiple disparate scenarios need multiple Jmeter test scripts 
+
 #### Change management 
 Change management is difficult as we can not review diff in source code management system 
+
 #### Reusability 
 - It is difficult to reuse the steps, we can refer to step in testing as we have only the option to clone it,  in case of changes, we have to update all steps.
 
