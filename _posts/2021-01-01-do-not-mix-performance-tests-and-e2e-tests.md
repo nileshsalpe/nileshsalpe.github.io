@@ -1,4 +1,4 @@
-# Do Not Mix Perforance and Integration Tests
+# Do Not Mix Performance and Integration Tests
 
 # Table of Contents
 - [Acronyms](#acronyms)
