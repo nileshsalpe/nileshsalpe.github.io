@@ -35,7 +35,7 @@ JMeter is a performance testing tool and using it for integration tests is wrong
 |-------|------------|
 | Used to measure response time, error rates by increasing concurrent users over time.<br>It should simulate real-time system load. <br>example say 10 TPS for 15 min, 20 TPS for 5 min till API breaks.<br>The purpose is to measure the latency and error rate of API.|Used to check the correctness of major functional requirements of API.<br>It should be run with a single user. <br>The purpose is to check functionality. |
 |It is recommended to only assert minimum things like response status.|	It is recommended to check response status plus response body and assert on that.|
-| These tests should not contain negative tests like checking 4XX and 5XX errors.|	These tests should container 2XX, 4XX, 5XX errors for main scenarios.|
+| These tests should not contain negative tests like checking 4XX and 5XX errors.|These tests should contain checks for 2XX, 4XX, 5XX errors and for main scenarios.|
 |Maintained by developers |	maintained by developers  and product managers |
 | Performance tests may not need special creation of data other than user creation <br>Should not contain the use of test APIs it should be as realistic as possible.| Need to create data and clean up after the tests.<br>May contain the use of test API or tools or scripts.|
 | They should not contain mocks. | May contain mocks. |
