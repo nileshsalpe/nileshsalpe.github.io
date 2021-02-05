@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 name: Nilesh Salpe's Blog
 description: Sharing tidbits of my experience from tech world !!!
+# Google Analytics
+google_analytics: 189056574
