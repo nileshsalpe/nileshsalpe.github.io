@@ -1,4 +1,10 @@
 ## About Me: 
+![](https://img.shields.io/badge/Computer%20Science-Algorithms%20and%20Data%20Structures-brightgreen)
+![](https://img.shields.io/badge/Software%20Architecture-Design-red)
+![](https://img.shields.io/badge/Arteficial%20Intelligence-Machine%20Learning-orange)
+![](https://img.shields.io/badge/Cloud-Microservices-blue)
+![](https://img.shields.io/badge/Data%20Mining-Search%20Engine-green)
+
 Seasoned enterprise software product developer with vast experience in developing complex applications in the cloud/cloud native and on-prem,
 with the ability to learn, adapt and implement new technologies faster in the fast-paced software industry.
 
