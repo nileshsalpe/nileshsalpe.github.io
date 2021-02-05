@@ -1,3 +1,6 @@
+[Home](https://nileshsalpe.github.io) | [About Me](https://nileshsalpe.github.io/about.html) | [Contact](https://nileshsalpe.github.io/contact.html)
+---
+
 ## Contact Details:
 
 LinkedIn Profie :
