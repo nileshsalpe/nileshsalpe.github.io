@@ -1,3 +1,6 @@
+[Home](https://nileshsalpe.github.io) | [About Me](https://nileshsalpe.github.io/about.html) | [Contact](https://nileshsalpe.github.io/contact.html)
+---
+
 ## About Me: 
 ![](https://img.shields.io/badge/Computer%20Science-Algorithms%20and%20Data%20Structures-brightgreen)
 ![](https://img.shields.io/badge/Software%20Architecture-Design-red)
