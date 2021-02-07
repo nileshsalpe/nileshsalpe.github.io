@@ -94,9 +94,10 @@ instead comment like this
   - infra
      - May be current cloud dont have support for sticky session so we have to some hacks 
    - dependent systems/services/product 
-        - It has to be called 2 times instead of one time with two differnt apis for as request
+        - Need to call two different APIs instead service efficiently returning desired results in single API call.
         - It does not support async mechanism for time taking reqeust so you have to poll for results.
         - It does not support pagination and there are chances of going out of memory by fetching all results in one call.
+        - It may return wrong response codes in case of errors say it returns HTTP 500 for auth error due to bad design.
     - evolution path etc. and assumptions teams' best practices for coding etc.
         - The team is developing quick proto-type and want to get things working fast.
 
