@@ -56,8 +56,8 @@ by having team consensus on general topics like​
 
 ### Background Information
 - Assume code reviewer don't know anything about feature or design decision. ​- 
-- You have relevant documentation in wiki/Jira for the change,  add links details in task in JIRA.
-- Always mentions how you have tested the code. Add links for details for testing data and results in JIRA
+- You have relevant documentation in internal wiki/task tracking tools for the change,  add links details in task in project management tools like JIRA, Rally, Team Foundation Server etc.
+- Always mentions how you have tested the code. Add links for details for testing data and results in project management tools like like JIRA.
 
 ### Choosing Reviewers
 - Choose one from current team (required) and other from another team (optional) for code review.
@@ -88,31 +88,42 @@ instead comment like this
 - Appreciate code if code has done something very elegant and learn from it.
 
 ### Understand constraints
-- Reviewer should understand constraints of developer for timeline/infra/dependent systems/services/product evolution path etc. and assumptions teams' best practices for coding etc.​
+- Reviewer should understand constraints of developer.
+  - timeline
+    - It could be production bug need to fix what is causing problem right now than ideal fix.
+  - infra
+     - May be current cloud dont have support for sticky session so we have to some hacks 
+   - dependent systems/services/product 
+        - It has to be called 2 times instead of one time with two differnt apis for as request
+        - It does not support async mechanism for time taking reqeust so you have to poll for results.
+        - It does not support pagination and there are chances of going out of memory by fetching all results in one call.
+    - evolution path etc. and assumptions teams' best practices for coding etc.
+        - The team is developing quick proto-type and want to get things working fast.
 
 ### Handling the Comments
-- Developer should take a moment back and consider yourself in reviewers' shoes and explain code to themself first.​
-- Developer should address code either by adding more comments in code or changing code to be clearer/performant.​
-- Developer should address or acknowledge all the comments.​
-- Reviewer should add nit: (nitpick) for non-critical comments. Example renaming, extra brackets etc.​
+- Developer should take a moment back and consider yourself in reviewers' shoes and explain code to themself first.
+- Developer should address code either by adding more comments in code or changing code to be clearer/performant.
+- Developer should address or acknowledge all the comments.
+- Reviewer should add nit: (nitpick) for non-critical comments. Example renaming, extra brackets etc.
 
 ### Conflict Resolution
 - Facts or data points override personal preferences of coding.​
-- Team's styling guide for naming, spaces, file size, usage of library etc. overrides personal preferences of coding.​
-- If there are too many iterations say 4-5, reviewer and code need to sync either through meeting to resolve the conflicts. ​
-- If that does not solve involve third person and take decision based on time and cost investments to returns of code changes. ​
+- Team's styling guide for naming, spaces, file size, usage of library etc. overrides personal preferences of coding.
+- If there are too many iterations say 4-5, reviewer and code need to sync either through meeting to resolve the conflicts.
+- If that does not solve involve third person and take decision based on time and cost investments to returns of code changes.
 - If that does not solve involve manager and escalate concern ​
 - Developer can reject review comments by citing valid reason like time constraints or hidden assumptions etc.
 
 ## After CR
 
 ### After CR approved
-- All checks in pipeline are passed – build/code coverage/static code analysis etc.​
-- Track changes got merge in destination branch - user squash and merge so that commit history is clean.​
-- Create tasks or stories if there are any follow up items.​
-- Track it reflects in latest artefacts in pre-prod environment.​
-- Sanity check after merge in pre-prod could help.​
+- All checks in pipeline are passed – build/code coverage/static code analysis etc.
+- Track changes got merge in destination branch - user squash and merge so that commit history is clean.
+- Create tasks or stories if there are any follow up items.
+- Track it reflects in latest artefacts in pre-prod environment.
+- Sanity check after merge in pre-prod could help.
 
 ### If CR rejected
-- Developer and reviewer decide next steps with managers involvement. ​
+- Developer and reviewer decide next steps with managers involvement.
 - This should happen either if developer is working in silos or CR size  is big like entire feature.
+
