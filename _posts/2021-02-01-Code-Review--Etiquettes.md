@@ -31,24 +31,37 @@
 
 ### Dedicated time slot for review
 
-Team gives dedicated time daily for code review.
-Example morning 10.30 to 11 am all will do code review if they have assigned one. Book calendar of team to do so for timely and quality code reviews.
+The team should daily dedicated time slot for code review.
+
+For example, morning 10.30 to 11 am, all will do dedicated code review if they have assigned one. 
+
+Block calendar of team to do so for timely and quality code reviews.
+
+If we dont follow such convention, gate-keepers might try to slow speed of code merges and it could also become a dangerous tool to slow down some one's space of changes.
+
+Above convention elimninated such tactics and helps for speedy, effciient code reviews in timed fashion.
 
 ### Avoid Silos
-Avoid code brother's environment so no two persons always review each other's code. No islands of coder and reviewers.​
+
+Avoid code brother's environment so no two persons always review each other's code.
+
+No islands of coder and reviewers.
 
 ### Avoid conflicts
-by having team consensus on general topics like​
-- Code style and formatting (prettier, check style)​
-- Language Conventions (Java, Python, Golang, Nodejs)​
-- Framework conventions (Spring, Hibernate, Rest APIs, Swagger etc.)​
+The team shoulf have consensus on general topics like
+- Code style and formatting (prettier, check style)
+- Language Conventions (Java, Python, Golang, Nodejs)
+- Framework conventions (Spring, Hibernate, Rest APIs, Swagger etc.)
 - Third party approved list of libraries​
 - Realistic code coverage thresholds line/branch/function converge. Example 90% for line, 90% for branch, 80% for function etc.
 
 ## Before CR
 
 ### Self-Review
-- Self-Review, You have explained code to yourself first before adding any reviewer.
+
+- First, you have explained code to yourself before adding any reviewer.
+- Acting like reviewing and putting comments for code of somebody else (though, actually, it is actually your code) helps as lot.
+You might not belive how simple istakes you have done.
 
 ### Commit Size
 - Code commit size should not be more than ~10 files. Code review should finish in ~ 30 min.
@@ -57,7 +70,7 @@ by having team consensus on general topics like​
 ### Background Information
 - Assume code reviewer don't know anything about feature or design decision. ​- 
 - You have relevant documentation in internal wiki/task tracking tools for the change,  add links details in task in project management tools like JIRA, Rally, Team Foundation Server etc.
-- Always mentions how you have tested the code. Add links for details for testing data and results in project management tools like like JIRA.
+- Always mention how you have tested the code. Add links for details for testing data and results in project management tools like like JIRA.
 
 ### Choosing Reviewers
 - Choose one from current team (required) and other from another team (optional) for code review.
