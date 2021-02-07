@@ -23,21 +23,21 @@
     
 ## General
 
-- Right Mindset
+### Right Mindset
 - Shared responsibility to improve the product
 - Learn from each other
 - Opportunity to understand new area in product
 - Mentoring
 
-## Dedicated time slot for review
+### Dedicated time slot for review
 
 Team gives dedicated time daily for code review.
 Example morning 10.30 to 11 am all will do code review if they have assigned one. Book calendar of team to do so for timely and quality code reviews.
 
-## Avoid Silos
+### Avoid Silos
 Avoid code brother's environment so no two persons always review each other's code. No islands of coder and reviewers.​
 
-## Avoid conflicts
+### Avoid conflicts
 by having team consensus on general topics like​
 - Code style and formatting (prettier, check style)​
 - Language Conventions (Java, Python, Golang, Nodejs)​
@@ -74,16 +74,16 @@ by having team consensus on general topics like​
 - Comments should lead to solution not to conflicts. Provide sample code in comment for more context.
 - Reviewer should not criticize developer but the code. Give clear, constructive comments. Keep comment to point and avoid passion adjective like dumb, crazy stupid, wonderful etc.
 - Comments should not contain personal blames or complaint , sarcastic, personal (yours, mine theirs etc.) content like.
-
+    
     `You must understand by doing this will decrease the performance.`
     
     `You should not have retuned this from method it so bullshit !!!`
 
 instead comment like this
 
-    `use xyz to increase performance by 2x.`
+    use xyz to increase performance by 2x.
     
-    `return this from function in case of error`
+    return this from function in case of error
 
 - Appreciate code if code has done something very elegant and learn from it.
 
