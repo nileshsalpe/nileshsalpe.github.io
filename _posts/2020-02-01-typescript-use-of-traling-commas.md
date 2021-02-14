@@ -1,4 +1,6 @@
-Table of Content
+# Use Of Trailing Commas In Typescript
+
+## Table of Content
 - [What is typescript](#what-is-typescript)
 - [What is a trailing comma and why does it matter in typescript](#what-is-a-trailing-comma-and-why-does-it-matter-in-typescript)
 - [What are the advantages of using trailing commas](#what-are-the-advantages-of-using-trailing-commas)
@@ -10,7 +12,7 @@ Table of Content
 
 TypeScript is an open-source language that is built on top of JavaScript to provide build-time type checks.
 
-It mimics syntax like statically typed language like Java and helps to avoid runtime errors for JavaScript and detect the problem at build time.
+TypeScript mimics syntax like statically typed language like Java and it helps to avoid runtime errors for JavaScript and detect the problem at build time.
 
 Types in typescript provide you documentation plus build-time validation. The language is syntactic sugar and only present at the built time as typescript compiler code generates corresponding javascript code. So the types of typescript are not present at run time.
 
@@ -21,7 +23,7 @@ if you access some property or method which is not defined, JavaScript may not c
 
 ## What is a trailing comma and why does it matter in typescript?
 
-Trailing commas (sometimes called "final commas") is useful when adding new elements, parameters, or properties in JavaScript types like objects, arrays, functions parameters and arguments, etc.
+Trailing commas (sometimes called "final commas") is useful when adding new elements, parameters, or properties in JavaScript types like objects, arrays, functions parameters, and arguments, etc.
 
 JavaScript has allowed trailing commas in array literals since the beginning, and later added them to object literals ([ECMAScript 5](https://en.wikipedia.org/wiki/ECMAScript#5th_Edition)) and most recently ([ECMAScript 2017](https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_%E2%80%93_ECMAScript_2017)) to function parameters.
 
