@@ -1,7 +1,5 @@
 ---
-layout: post
-title:  "Home Page"
-home: "Y"
+comments: "N"
 tags: salpe java software microservices testing architect software-architecture developer 
 ---
 
