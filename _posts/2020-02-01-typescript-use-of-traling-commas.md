@@ -1,3 +1,8 @@
+---
+layout: post
+title: Use Of Trailing Commas In Typescript
+categories: typescript
+---
 ## Use Of Trailing Commas In Typescript
 
 ## Table of Content
