@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Home Page"
+home: "Y"
+tags: salpe java software microservices testing architect software-architecture developer 
 ---
 
 # Welcome to Nilesh Salpe's Blog
