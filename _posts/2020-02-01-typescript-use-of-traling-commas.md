@@ -101,6 +101,6 @@ From personal experience, I have seen conflict in such cases, in java code which
 
 - Reason given that JavaScript source code size increases, is not applicable as it is very insignificant.
  
- ## References 
+## References 
  - [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas)
 - [TypeScipt Language](https://www.typescriptlang.org/)
