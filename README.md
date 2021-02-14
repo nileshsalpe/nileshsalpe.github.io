@@ -1,8 +1,3 @@
----
-comments: "N"
-tags: salpe java software microservices testing architect software-architecture developer 
----
-
 # Welcome to Nilesh Salpe's Blog
 
 ## My Posts 
