@@ -1,8 +1,3 @@
----
-layout: default
-type: template
-
----
 # Welcome to Nilesh Salpe's Blog
 
 ## My Posts 
