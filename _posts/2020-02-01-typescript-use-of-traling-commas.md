@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use Of Trailing Commas In Typescript
 categories: typescript javascript trailing-comma style formatter
 ---
