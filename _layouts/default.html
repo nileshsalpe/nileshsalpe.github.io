@@ -24,7 +24,7 @@
   <body>
     <header class="page-header" role="banner">
       <h1 class="project-name">Nilesh Salpe</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
@@ -35,18 +35,18 @@
     </header>
     <main id="content" class="main-content" role="main">
       {{ content }}
-      {% if page.comments %}
+      {% if site.comments %}
         <div id="disqus_thread"></div>
           <script>
               /**
               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-              /*
+             
               var disqus_config = function () {
-              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              this.page.url = "{{ 'https://nileshsalpe.github.io/' | append: relative_url}}";  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = "{{relative_url}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
               };
-              */
+             
               (function() { // DON'T EDIT BELOW THIS LINE
               var d = document, s = d.createElement('script');
               s.src = 'https://https-nileshsalpe-github-io.disqus.com/embed.js';
