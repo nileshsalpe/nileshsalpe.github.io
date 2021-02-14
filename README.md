@@ -1,3 +1,7 @@
+---
+home_page:true
+---
+
 # Welcome to Nilesh Salpe's Blog
 
 ## My Posts 
