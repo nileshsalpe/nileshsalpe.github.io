@@ -1,5 +1,6 @@
 ---
-home_page:true
+layout: post
+title:  "Home Page"
 ---
 
 # Welcome to Nilesh Salpe's Blog
