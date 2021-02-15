@@ -36,6 +36,12 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      {% include search.html %}
+    </main>
+    {% include footer.html %}
+    test 1
      <div id="search">
      <form role="search" method="get" action="{{ site.baseurl }}//search/">
          <input id="searchString" name="searchString"
@@ -43,10 +49,5 @@
          <input id="searchButton" name="googleSearchName" type="submit" value="Search">
      </form>
     </div>
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-      {% include search.html %}
-    </main>
-    {% include footer.html %}
   </body>
 </html>
