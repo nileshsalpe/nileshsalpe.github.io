@@ -1,5 +1,9 @@
 ---
+layout: post
 title: "Use Of Trailing Commas In Typescript" 
+tags: typescript javascript es6 es5 
+date: 2020-02-01
+summary: "We should encourage to use trailing comma if change introduces new line"
 
 ---
 ## Use Of Trailing Commas In Typescript
