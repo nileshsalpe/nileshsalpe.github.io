@@ -2,7 +2,8 @@
 
 ## My Posts 
 ### 2023
-- [Mac Setup](https://nileshsalpe.github.io/2023-05-23-mac-setup)
+- [Mac Setup](https://nileshsalpe.github.io/2023/05/23/mac-setup)
+- [Filesystem Hierarchy Standard](https://nileshsalpe.github.io/2023/05/23/fhs_mac_linux)
 ### 2021
 - [Do Not Mix Performance and Integration Tests](https://nileshsalpe.github.io/2021/01/01/do-not-mix-performance-tests-and-e2e-tests)
 - [Code Review - Best Practices](https://nileshsalpe.github.io/2021/02/01/Code-Review-Best-Practices)
